@@ -1,4 +1,4 @@
-#Pour cette application j'ai utilisé docker pour installer les dépendances nécessaires
+# Pour cette application j'ai utilisé docker pour installer les dépendances nécessaires
 
 L'index.php est le point d'entrée de l'application.
 Tu trouveras le dossier src qui contient les controllers, les models, le dossier public quant à lui est nécessaire pour ma génération de fichier PDF que je stocke provisoirement.
