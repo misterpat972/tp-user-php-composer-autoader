@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : mysql
--- Généré le : mar. 14 mai 2024 à 11:44
+-- Généré le : mer. 15 mai 2024 à 08:56
 -- Version du serveur : 8.4.0
 -- Version de PHP : 8.2.8
 
@@ -41,8 +41,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `nom`, `prenom`, `email`, `mot_de_passe`, `is_admin`) VALUES
-(17, 'BERTE', 'Patrick', 'misterpat972@gmail.com', '$2y$10$z0huWsQsZCqV4whz9BIFDe8hjcfT9MajwEBhEy09HF.hpIJVc3DDO', 0),
-(21, 'bob', 'marley', 'bob@gmail.com', '$2y$10$mryy69lUxQexE5K/2ZJHLOwgrKdUIR1Aw26U.RYtBeukgAJDJvpLO', 1);
+(21, 'bob', 'marley', 'bob@gmail.com', '$2y$10$mryy69lUxQexE5K/2ZJHLOwgrKdUIR1Aw26U.RYtBeukgAJDJvpLO', 1),
+(23, 'bob', 'léponge', 'bobleponge@gmail.com', '$2y$10$5n2/Zpa4wJ24TSUYUibbPOsQ44bRth3qlPuVlSVqTR2.J/fghiqzq', 0),
+(24, 'pape', 'jean-paul', 'pape@gmail.com', '$2y$10$t85cRpofkjCwzPyGUPnjM.gi.Jk4gJiibg/EekpVyHH2KOkA2LdvS', 0);
 
 --
 -- Index pour les tables déchargées
@@ -62,7 +63,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
